@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/alpine:3.20
+FROM ghcr.io/dockhippie/alpine:3.21
 ENTRYPOINT [""]
 
 # renovate: datasource=gitlab-releases depName=gitlab-org/release-cli
