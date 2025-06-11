@@ -2,7 +2,7 @@ FROM ghcr.io/dockhippie/alpine:3.21
 ENTRYPOINT [""]
 
 # renovate: datasource=gitlab-releases depName=gitlab-org/release-cli
-ENV GITLAB_RELEASE_VERSION=0.23.0
+ENV GITLAB_RELEASE_VERSION=0.24.0
 
 ARG TARGETARCH
 
